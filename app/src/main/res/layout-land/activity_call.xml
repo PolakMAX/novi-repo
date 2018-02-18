@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.polak.callapp.CallActivity"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:background="#d2d0d0"
+    >
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_nubmer"
+        android:textColorHint="#8c8484"
+        android:textStyle="italic"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+
+        android:background="@drawable/button_background"
+        android:text="@string/call_button"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+
+        />
+
+</LinearLayout>
